@@ -131,11 +131,5 @@ For resources that you can find in the registration system, you can find in the 
 
 ---
 
-Below is a Access Control Matrix that derive from all of resources and roles in my registration system
-
-| Role / Resource | Student-Profie Section | Course Database | CUD Course Section | Courses List | Support     | Student-Grade Section | Student-Course Management Section | Teacher-Profile | Teacher-Course Section | Student-Course Schedule | Student-My Advisor | Teacher-Who is my apprentice Section | Officer-Add Advisor for teacher section |
-| --------------- | :--------------------: | --------------- | ------------------ | ------------ | ----------- | --------------------- | --------------------------------- | --------------- | ---------------------- | ----------------------- | ------------------ | ------------------------------------ | --------------------------------------- |
-| Administrator   |                        | Read / Write    | Write              | Read         | Write       |                       | Read                              |                 | Read                   | Read                    | Read               | Read                                 | Write                                   |
-| Officer         |                        |                 | Write              | Read         | Write       |                       | Read                              |                 | Read                   | Read                    | Read               | Read                                 | Write                                   |
-| Teacher         |                        |                 |                    | Read         | Read/Write  |                       |                                   | Read/Write      | Read                   |                         |                    | Read                                 |                                         |
-| Student         |       Read/Write       |                 |                    | Read         | Read/ Write | Read                  | Write                             |                 |                        | Read                    | Read               |                                      |                                         |
+Below is a Access Control Matrix that derive from all of resources and roles in my registration system:
+![table](./image/table2.png)
