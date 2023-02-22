@@ -37,7 +37,7 @@ YES
 ##### f.Draw a cipher disc of the given text.
 
 ![cipher](./image/cipher.png)
-
+![disc](./image/disc.png)
 ##### g.
 
 ![code](./image/code.png)
