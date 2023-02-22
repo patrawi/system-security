@@ -38,6 +38,7 @@ YES
 
 ![cipher](./image/cipher.png)
 ![disc](./image/disc.png)
+
 ##### g.
 
 ![code](./image/code.png)
@@ -64,13 +65,10 @@ Base on what I have learned in class, yes, it gives higher security compared to 
 #### 3. (Mode in Block Cipher) Block Cipher is designed to have more randomness in a block. However, an individual block still utilizes the same key. Thus, it is recommended to use a cipher mode with an initial vector, chaining or feedback between blocks. This exercise will show you the weakness of Electronic Code Book
 
 Here is the answer between 2 different methods which are aes-256-cbc and aes-256-ecb
-![test](./image/test.jpg)
-originial
-
-![aes-256-ecb](./image/og.png)
-AES-256-ecb
-![aes-256-cbc](./image/cbc.png)
-AES-256-cbc
+![og](./image/new.jpeg)
+![bw](./image/Screenshot%202566-02-22%20at%2022.31.52.png)
+![res](./image/Screenshot%202566-02-22%20at%2022.32.07.png)
+![cbc](./image/Screenshot%202566-02-22%20at%2022.32.15.png)
 
 #### 4. (Encryption Protocol - Digital Signature)
 
@@ -79,7 +77,7 @@ AES-256-cbc
 Below images are the performance using openSSL CLI for testing.
 
 ![sha1](./image/sha1.png)
-![rc2](./image/rc2.png)
+![rc2](./image/rc4.png)
 ![blowfish](./image/blowfish.png)
 ![dsa](./image/dsa.png)
 
